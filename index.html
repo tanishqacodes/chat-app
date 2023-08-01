@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+
+    <!-- link external css -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <img height="48" src="/wassup.png">
+            <h1>Chat App</h1>
+        </div>
+        <div class="message__area">
+
+
+            <!-- dynamically genertaed by js -->
+            <!-- <div class="incoming message">
+                username : 
+                <h4>Tanishqa</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sit voluptatem officiis modi! Dicta doloremque, consequuntur veniam neque, perspiciatis quod magni necessitatibus ab assumenda sed nam corporis aliquid fuga optio.</p>
+            </div>
+            <div class="outgoing message">
+                username : 
+                <h4>Tanishqa</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sit voluptatem officiis modi! Dicta doloremque, consequuntur veniam neque, perspiciatis quod magni necessitatibus ab assumenda sed nam corporis aliquid fuga optio.</p>
+            </div> -->
+        </div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message !!! "></textarea>
+        </div>
+    </section>
+
+
+
+    <!-- socket.io at client side -->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- link external javascript -->
+    <script src="/client.js"></script>
+</body>
+
+</html>

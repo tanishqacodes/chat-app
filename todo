@@ -1,0 +1,17 @@
+create npm project
+
+create Index, css, js files
+
+install dependiences (express , nodemon)
+
+create express server(server.js)
+
+do frontend part
+
+install socket.io , setup socket.io in server.js , ans client side
+
+client send msg logic in client.js
+
+recieve message on server and boradcast to all client
+
+receive message on client and display it.
